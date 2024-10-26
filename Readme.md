@@ -18,8 +18,8 @@ You can check out the live demo of the project on **Netlify** by visiting the fo
 ## Features
 
 - **Dynamic Content Generation**: Speaker cards are created dynamically from an array, making it easy to add, remove, or update speaker data.
-- **Semantic HTML Structure**: Uses semantic tags and ARIA roles for accessibility.
-- **Modular and Maintainable**: Clear separation of data and presentation, with CSS for styling and JavaScript for functionality.
+- **Semantic HTML Structure**: Used semantic tags.
+
 
 ## Project Structure
 
