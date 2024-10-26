@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="dynamic speaker cards using JavaScript by fetching data from an array and displaying it "/>
+  <title>Speaker_Events | Webpage</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcWeyBjjQY0iZYxmV6k6jqNBrB5Jriq1Nr_A&s" />
+   <!-- CSS -->
+   <link rel="stylesheet" href="index.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ <!-- CSS -->
+</head>
+<body>
+  <header>
+    <h1>View our Featured Speakers for the Event</h1>
+    <p>Speakers are core contributors and industry thought leaders working at
+      <a href="#">companies</a> that push for innovation.
+    </p>
+  </header>
+  
+  <!-- Speaker Pop Section -->
+  <section class="popover-speaker" id="popover-speaker"></section>
+
+  <!-- Speakers Slider Section -->
+  <section class="speakers">
+    <div class="slider"></div>
+    <button class="prev-button"><i class="fas fa-angle-left"></i></button>
+    <button class="next-button"><i class="fas fa-angle-right"></i></button>
+  </section>
+
+  <section class="control">
+    <button class="program-button">See the Program</button>
+    <span class="arrow-text">Click on Speaker to see Speaker person info</span>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
